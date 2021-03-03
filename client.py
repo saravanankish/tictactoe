@@ -6,7 +6,8 @@ pygame.init()
 
 screen = pygame.display.set_mode((500, 600))
 running = True
-pygame.display.set_caption("Tic Tac Toe")
+pygame.display.set_caption("Tic Tac Toe - Client")
+pygame.display.set_icon(pygame.image.load("./images/icon.png"))
 
 HOST = "127.0.0.1"
 PORT = 65432
